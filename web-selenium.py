@@ -9,7 +9,7 @@ assert "Python" in driver.title
 elem = driver.find_element_by_id('id-search-field')
 elem.send_keys("selenium")
 elem.send_keys(Keys.RETURN)
-elem1 = driver.find_element_by_class_name('subnav menu')
+elem1 = driver.find_element_by_name('q')
 assert elem1.is_displayed()
 elem1.click()
 driver.close()
