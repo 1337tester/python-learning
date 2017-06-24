@@ -1,115 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f3530d6-b38b-421e-8fc2-41ed9004e39e" name="Default" comment="Migrated my repo into github after 2 years break">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/distances.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/curve_fitting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/plotting/lec13_graphs_visualize_new.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Variables-Rules.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stopky/Alarm09.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stopky/ball.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stopky/chimes_01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/100ka.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS2_P2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS4/ps4a.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS4/ps4b.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS4/test_ps4a.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS4/words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS5/ps5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS5/story.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS5/words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/binary_conv.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/fibonacci.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/person-professor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/poly_function.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/python_exam_3_mandarin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/python_exam_4_monolitical.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/usresident.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/grafy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/hand.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/iterating_tuples.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/kurz_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem8.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem9.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/new_class.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/polysum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/ps3_hangman.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/rekurzive_faktorial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/Dataset 1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/Dataset 2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS1/ps1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS1/ps1_partition.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS2/ps2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS2/ps2_visualize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS3/ps3b.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS4/data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS4/ps4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/coin_flips.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/dochodok.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/die_problem_4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/problem_3_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/problem_6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/rabbits.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/flipcoin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/fuzz.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/julytemps.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect13-segment2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect6-segment1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect6-segment2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect6-segment3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture10-segment1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture10-segment2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture10-segment3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture11-segment1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture11-segment2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture11-segment3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture12-segment1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture12-segment2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture12-segment3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture3-segment3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture5-segment2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture7-segment1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture7-segment2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture7-segment3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture8-segment1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture8-segment3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture9-segment1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture9-segment2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture9-segment3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture9-segment4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lectureCode_L17_code.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/mystery.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/mysteryData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/plotting/dataExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/plotting/retirement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/plotting/test2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/ps1_cow_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/quiz_problem4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/springData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/temp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/temperatures.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/temperatures_adjusted.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS_XML/csv_reading.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS_XML/inbound_pacs_008_PF_MS_CSAG_whitelist.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS_XML/names.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS_XML/text_adjust.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ackermann.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mean_std.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portscanner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serial_num/ICCID.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serial_num/all.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serial_num/compare.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serial_num/existing.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serial_num/existing_new.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serial_num/myAlert_Global.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stopky/stopky.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variables-rules.py" />
+    <list default="true" id="5f3530d6-b38b-421e-8fc2-41ed9004e39e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS2_P2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS4/ps4a.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS4/ps4b.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS4/test_ps4a.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS4/words.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS5/ps5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS5/story.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/PS5/words.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/binary_conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/fibonacci.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/person-professor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/poly_function.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/python_exam_3_mandarin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/python_exam_4_monolitical.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/final_exam_6.00.1x/usresident.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/grafy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/hand.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/iterating_tuples.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/kurz_1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/midterm_Problem9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/new_class.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/polysum.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/ps3_hangman.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/rekurzive_faktorial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_1_MITx Introduction to Computer Science and Programming Using Python/words.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/Dataset 1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/Dataset 2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS1/ps1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS1/ps1_partition.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS2/ps2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS2/ps2_visualize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS3/ps3b.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS4/data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS4/ps4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/coin_flips.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/distances.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/dochodok.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/curve_fitting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/die_problem_4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/problem_3_2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/problem_6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/exam/rabbits.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/flipcoin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/fuzz.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/julytemps.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect13-segment2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect6-segment1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect6-segment2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lect6-segment3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture10-segment1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture10-segment2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture10-segment3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture11-segment1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture11-segment2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture11-segment3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture12-segment1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture12-segment2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture12-segment3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture3-segment3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture5-segment2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture7-segment1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture7-segment2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture7-segment3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture8-segment1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture8-segment3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture9-segment1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture9-segment2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture9-segment3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lecture9-segment4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/lectureCode_L17_code.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/mystery.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/mysteryData.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/plotting/dataExample.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/plotting/lec13_graphs_visualize_new.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/plotting/retirement.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/plotting/test2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/ps1_cow_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/quiz_problem4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/springData.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/temp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/temperatures.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/temperatures_adjusted.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comments.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/100ka.py" afterPath="$PROJECT_DIR$/stopky/100ka.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Variables-Rules.pdf" afterPath="$PROJECT_DIR$/Courses/Selenium WebDriver With Python 3.x/Variables-Rules.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ackermann.py" afterPath="$PROJECT_DIR$/short_exercises/ackermann.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arguments.py" afterPath="$PROJECT_DIR$/short_exercises/arguments.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/creating_xml.py" afterPath="$PROJECT_DIR$/CS_XML/creating_xml.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/deBrujin.py" afterPath="$PROJECT_DIR$/short_exercises/deBrujin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/duck_writing.py" afterPath="$PROJECT_DIR$/short_exercises/duck_writing.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/holidays.py" afterPath="$PROJECT_DIR$/short_exercises/holidays.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mean_std.py" afterPath="$PROJECT_DIR$/short_exercises/mean_std.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/namespaces.py" afterPath="$PROJECT_DIR$/short_exercises/namespaces.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parser.py" afterPath="$PROJECT_DIR$/short_exercises/parser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pip.py" afterPath="$PROJECT_DIR$/short_exercises/pip.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/portscanner.py" afterPath="$PROJECT_DIR$/short_exercises/portscanner.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/size.py" afterPath="$PROJECT_DIR$/short_exercises/size.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/short_exercises/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/timer.py" afterPath="$PROJECT_DIR$/short_exercises/timer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/variables-rules.py" afterPath="$PROJECT_DIR$/Courses/Selenium WebDriver With Python 3.x/variables-rules.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-selenium.py" afterPath="$PROJECT_DIR$/Courses/Selenium WebDriver With Python 3.x/web-selenium.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/words.py" afterPath="$PROJECT_DIR$/short_exercises/words.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stopky/stopky.py" afterPath="$PROJECT_DIR$/stopky/stopky.py" />
     </list>
     <ignored path="pyfund.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,37 +131,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="deBrujin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deBrujin.py">
+        <entry file="file://$PROJECT_DIR$/short_exercises/deBrujin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ps1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS1/ps1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="135" column="6" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ps4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS4/ps4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="178" column="23" lean-forward="false" selection-start-line="178" selection-start-column="23" selection-end-line="178" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/serial_num/all.txt">
+      <file leaf-file-name="creating_xml.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS_XML/creating_xml.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -169,8 +150,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compare.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serial_num/compare.py">
+      <file leaf-file-name="arguments.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/short_exercises/arguments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="18" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ackermann.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/short_exercises/ackermann.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -179,41 +170,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="existing.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serial_num/existing.txt">
+      <file leaf-file-name="stopky.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stopky/stopky.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="existing_new.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serial_num/existing_new.txt">
+      <file leaf-file-name="words.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/short_exercises/words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICCID.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serial_num/ICCID.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myAlert_Global.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serial_num/myAlert_Global.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -227,8 +201,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stopky/stopky.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/short_exercises/words.py" />
+        <option value="$PROJECT_DIR$/stopky/stopky.py" />
       </list>
     </option>
   </component>
@@ -267,6 +242,34 @@
               <option name="myItemId" value="pyfund" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stopky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyfund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyfund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="short_exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyfund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyfund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -277,6 +280,15 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MEGA\Testing\pyfund\pyfund\short_exercises" />
+      <recent name="C:\MEGA\Testing\pyfund\pyfund\CS_XML" />
+      <recent name="C:\MEGA\Testing\pyfund\pyfund\Courses\Selenium WebDriver With Python 3.x" />
+      <recent name="C:\MEGA\Testing\pyfund\pyfund\stopky" />
+      <recent name="C:\MEGA\Testing\pyfund\pyfund\Courses" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -290,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.variables-rules">
+  <component name="RunManager" selected="Python.stopky">
     <configuration default="false" name="stopky" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,7 +333,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyfund" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="C:\MEGA\Testing\pyfund\pyfund\short_exercises\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +351,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyfund" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/variables-rules.py" />
+      <option name="SCRIPT_NAME" value="C:\MEGA\Testing\pyfund\pyfund\Courses\Selenium WebDriver With Python 3.x\variables-rules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="comments" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyfund" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comments.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -441,16 +471,18 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.stopky" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
       <item index="2" class="java.lang.String" itemvalue="Python.variables-rules" />
+      <item index="3" class="java.lang.String" itemvalue="Python.comments" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.variables-rules" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.stopky" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.stopky" />
+        <item index="1" class="java.lang.String" itemvalue="Python.comments" />
+        <item index="2" class="java.lang.String" itemvalue="Python.variables-rules" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -494,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498326202883</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Migrated my repo into github after 2 years break">
+      <created>1498326400152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1498326400152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -509,37 +548,37 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1723" height="936" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18746339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32427844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39728352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.50104165" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.49895832" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44533333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27885178" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18746339" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32324454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39728352" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.50104165" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.49895832" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44533333" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27885178" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -562,119 +601,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/words.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/words.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/words.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/words.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/words.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/words.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timer.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/timer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="103" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-selenium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arguments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pip.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/pip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/namespaces.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/namespaces.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -682,31 +658,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/holidays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duck_writing.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/duck_writing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/size.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/size.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deBrujin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -715,10 +677,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="14" />
@@ -726,10 +692,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variables-rules.py">
+    <entry file="file://$PROJECT_DIR$/Courses/Selenium WebDriver With Python 3.x/variables-rules.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -737,10 +704,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="14" />
@@ -748,21 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variables-rules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stopky/stopky.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/Courses/Selenium WebDriver With Python 3.x/variables-rules.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -770,10 +727,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variables-rules.py">
+    <entry file="file://$PROJECT_DIR$/stopky/stopky.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Courses/Selenium WebDriver With Python 3.x/variables-rules.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,10 +758,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -796,10 +777,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -811,10 +796,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -826,10 +815,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -841,10 +834,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -852,48 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/short_exercises/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stopky/stopky.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/variables-rules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS1/ps1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="135" column="6" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS4/ps4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="178" column="23" lean-forward="false" selection-start-line="178" selection-start-column="23" selection-end-line="178" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serial_num/existing.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -902,6 +861,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Courses/Selenium WebDriver With Python 3.x/variables-rules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -922,7 +889,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serial_num/compare.py">
+    <entry file="file://$PROJECT_DIR$/serial_num/existing.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -930,11 +897,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Courses/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS4/ps4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="178" column="23" lean-forward="false" selection-start-line="178" selection-start-column="23" selection-end-line="178" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Courses/6_00_2_MITx Introduction to Computational Thinking and Data Science/PS1/ps1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="135" column="6" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stopky/100ka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Courses/Selenium WebDriver With Python 3.x/web-selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stopky/ball.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serial_num/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/serial_num/all.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3247">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short_exercises/holidays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short_exercises/mean_std.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short_exercises/deBrujin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS_XML/creating_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short_exercises/arguments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short_exercises/ackermann.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short_exercises/words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stopky/stopky.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1498326948412" expanded="true" signature="0:12" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>
