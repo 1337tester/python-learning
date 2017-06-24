@@ -1,16 +1,13 @@
 import time
 #from time import gmtime, strftime
-import simpleaudio as sa
+import wave as sa
 
 # TODO either repair references or delete app
 path_to_file_start = 'c:\MEGA\Testing\pyfund\stopky\chimes_01.wav'
 path_to_file_end = 'c:\MEGA\Testing\pyfund\stopky\Alarm09.wav'
 
-wave_start = sa.WaveObject.from_wave_file(path_to_file_start)
+wave_start = sa.openfp(path_to_file_start)
 wave_end = sa.WaveObject.from_wave_file(path_to_file_end)
-#play_obj = wave_end.play()
-#play_obj.wait_done()
-
 
 
 def countdown(t):
