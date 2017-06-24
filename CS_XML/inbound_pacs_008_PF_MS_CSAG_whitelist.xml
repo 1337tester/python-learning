@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PaymentInterchange_2_3>
+    <BankName>Credit Suisse AG Market Side</BankName>
+    <BankGroupId>Credit Suisse Group</BankGroupId>
+    <ExchConExtId>POSTFINANCE_CSAG_IN</ExchConExtId>
+    <Payload>
+        <Document xmlns="http://www.six-interbank-clearing.com/de/pacs.008.001.02.ch.01"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <FIToFICstmrCdtTrf>
+                <GrpHdr>
+                    <MsgId>{MsgId}</MsgId>
+                    <CreDtTm>{date}T19:00:25.526+01:00</CreDtTm>
+                    <NbOfTxs>1</NbOfTxs>
+                    <TtlIntrBkSttlmAmt Ccy="CHF">{amount}</TtlIntrBkSttlmAmt>
+                    <IntrBkSttlmDt>{date}</IntrBkSttlmDt>
+                    <SttlmInf>
+                        <SttlmMtd>INGA</SttlmMtd>
+                        <SttlmAcct>
+                            <Id>
+                                <IBAN>CH6809000000500010836</IBAN>
+                            </Id>
+                        </SttlmAcct>
+                    </SttlmInf>
+                    <InstgAgt>
+                        <FinInstnId>
+                            <BIC>POFICHBEXXX</BIC>
+                        </FinInstnId>
+                    </InstgAgt>
+                    <InstdAgt>
+                        <FinInstnId>
+                            <BIC>CRESCHZZ80A</BIC>
+                        </FinInstnId>
+                    </InstdAgt>
+                </GrpHdr>
+                <CdtTrfTxInf>
+                    <PmtId>
+                        <InstrId>{InstrId}</InstrId>
+                        <EndToEndId>NOTPROVIDED</EndToEndId>
+                        <TxId>{TxId}</TxId>
+                    </PmtId>
+                    <PmtTpInf>
+                        <LclInstrm>
+                            <Prtry>ESRPMT</Prtry>
+                        </LclInstrm>
+                    </PmtTpInf>
+                    <IntrBkSttlmAmt Ccy="CHF">{amount}</IntrBkSttlmAmt>
+                    <ChrgBr>SHAR</ChrgBr>
+                    <Dbtr>
+                        <Nm>Robert Schneider SA</Nm>
+                        <PstlAdr>
+                            <Ctry>CH</Ctry>
+                            <AdrLine>Ruelle du Lac 177</AdrLine>
+                            <AdrLine>2503 Biel/Bienne</AdrLine>
+                        </PstlAdr>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <Id>
+                            <IBAN>CH0309000000250090342</IBAN>
+                        </Id>
+                    </DbtrAcct>
+                    <DbtrAgt>
+                        <FinInstnId>
+                            <BIC>POFICHBEXXX</BIC>
+                        </FinInstnId>
+                    </DbtrAgt>
+                    <CdtrAgt>
+                        <FinInstnId>
+                            <BIC>CRESCHZZ80A</BIC>
+                        </FinInstnId>
+                    </CdtrAgt>
+                    <CdtrAcct>
+                        <Id>
+                            <Othr>
+                                <Id>010025009</Id>
+                                <SchmeNm>
+                                    <Prtry>ESRPT</Prtry>
+                                </SchmeNm>
+                            </Othr>
+                        </Id>
+                    </CdtrAcct>
+                    <Cdtr>
+                        <Nm>NOTPROVIDED</Nm>
+                    </Cdtr>
+                    <RmtInf>
+                        <Strd>
+                            <CdtrRefInf>
+                                <Tp>
+                                    <CdOrPrtry>
+                                        <Prtry>ESR</Prtry>
+                                    </CdOrPrtry>
+                                </Tp>
+                                <Ref>900336000000000000000000012</Ref>
+                            </CdtrRefInf>
+                        </Strd>
+                    </RmtInf>
+                </CdtTrfTxInf>
+            </FIToFICstmrCdtTrf>
+        </Document>
+    </Payload>
+</PaymentInterchange_2_3>
