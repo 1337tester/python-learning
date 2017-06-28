@@ -1,5 +1,4 @@
 from Crypto.Hash import SHA256
-import binascii
 
 
 def hashing_per_blocks(filepath, blocksize = 1024):
@@ -75,13 +74,11 @@ def verify_per_blocks(filepath, hash0, blocksize = 1024, hashsize = 32):
             counter += 1
             hashik = byte[blocksize:blocksize + hashsize]
             byte = byte[blocksize + hashsize:]
-        return print('All blocks are correct')
-
+    return print('All blocks are correct')
 
 
 if __name__ == '__main__':
-
-    hash_or_verify = input("For block-hashing a file press 'h' \n For veryfying press 'v' \n Input:")
+    hash_or_verify = input("For block-hashing a file press 'h' \nFor veryfying press 'v'\nInput:")
     if hash_or_verify == 'h':
         path = input("Please provide filepath for the hash candidate (best in quotation marks): ")
         print("Working...")
@@ -92,6 +89,8 @@ if __name__ == '__main__':
         path = input("Please provide filepath for the block-hash file (best in quotation marks): ")
         hash = input("Please provide the hash0(hash of the first block of this file): ")
         verify_per_blocks(path, hash)
+    else:
+        print("Incorrect input")
 
 
     #debugging, dont look here;)
