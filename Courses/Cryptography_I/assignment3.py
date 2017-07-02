@@ -49,7 +49,6 @@ def verify_per_blocks(filepath, hash0, blocksize = 1024, hashsize = 32):
     hashed_file = open(filepath, "rb")
     with hashed_file:
         byte = hashed_file.read()
-        list_of_blocks = []
         if type(hash0) == str:
             hashik = byte.fromhex(hash0)
         counter = 0
