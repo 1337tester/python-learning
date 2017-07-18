@@ -1,10 +1,32 @@
 import pyaes
 import codecs
 import binascii
+import sys
 
 
 def xor(var1, var2):
     return bytes(a ^ b for a, b in zip(var1, var2))
+
+
+def bin_strings(string):
+    return ''.join(format(ord(x), 'b') for x in string)
+
+
+def hex_to_bin(string):
+    """from hex to bin"""
+    return bin(int(string, 16))[2:]
+
+
+def xor_strings(a, b, base = 'hex'):
+    print("lengths are: ", len(a), len(b))
+    if base =='asci':
+        x = int(bin_strings(a), 2)
+        y = int(bin_strings(b), 2)
+    elif base =='hex':
+        x = int(hex_to_bin(a), 2)
+        y = int(hex_to_bin(b), 2)
+    z = x ^ y
+    return bin(z)[2:].zfill(len(a))
 
 
 def pad(text):
@@ -15,6 +37,22 @@ def pad(text):
 
 def hex_to_chars(hex_data):
     return ''.join(chr(int(hex_data[i:i + 2], 16)) for i in range(0, len(hex_data), 2))
+
+
+def hex_to_int_list(hex_data):
+    result = []
+    for i in range(0, len(hex_data), 2):
+        result.append(int(hex_data[i:i + 2], 16))
+    return result
+
+
+def int_list_to_hex(int_list):
+    result = ''
+    for i in int_list:
+        if len(hex(i)[2:]) == 1:
+            result += '0'
+        result += hex(i)[2:]
+    return result
 
 
 # CBC
@@ -45,56 +83,57 @@ cipher_text2 = '5b68629feb8606f9a6667670b75b38a5b4832d0f26e1ab7da33249de7d4afc48
     "ascii")
 cbc_key2 = '140b41b22a29beb4061bda66b6747e14'.encode("ascii")
 
-
 print(cbc_decryption(cipher_text1, cbc_key1))
 print(cbc_decryption(cipher_text2, cbc_key2))
+
+
+# ajvi = b'4ca00ff4c898d61e1edbf1800618fb28'
+# one = b'Basic CBC       '
+# two = b'Basic BBB       '
+#
+# # print(binascii.a2b_hqx(one))
+# ajvi_bin = binascii.unhexlify(ajvi)
+# one_b = binascii.hexlify(one)
+# two_b = binascii.hexlify(two)
+# print(ajvi)
+# print(one_b)
+# print(two_b)
+# one_two = int.from_bytes(xor(one_b, two_b), sys.byteorder)
+# print(one_two, type(one_two), xor(one_b, two_b))
+# print(xor_strings(xor_strings(one_b, two_b), ajvi))
+# print(xor(xor(one_b, two_b), ajvi))
+# xored = xor(xor(one_b, two_b), ajvi)
+#
+# iv_better = xored
+# cipher_textx = iv_better + '28a226d160dad07883d04e008a7897ee2e4b7465d5290d0c0e6c6822236e1daafb94ffe0c5da05d9476be028ad7c1d81'.encode(
+#     "ascii")
+# print(200*'*')
+# print(cbc_decryption(cipher_textx, cbc_key1))
+
 ##########################################################################3
 
 
 # CTR
-def ctr_decryption(cipher_text, cbc_key, iv_set):
+def ctr_decryption(cipher_text, cbc_key):
     iv = cipher_text[:32]
-    # iv = int.from_bytes(cipher_text[:32], byteorder='big')
-    # iv = int.from_bytes(cipher_text[:32], byteorder='big')
-    # print(cipher_text[:32], iv)
     cipher_text = cipher_text[32:]
     blocks = []
     while len(cipher_text) > 0:
         blocks.append(cipher_text[:32])
         cipher_text = cipher_text[32:]
-
-    # print('Blocks: ', blocks, type(blocks[0]))
-    # print('IV: ', iv)
-    # print('Key: ', cbc_key, type(cbc_key))
     results = ''
     for block in blocks:
-        # iv = binascii.unhexlify(iv)
-        # print('block type', type(block), len(block), block)
-        # print('cbc_key type', type(cbc_key), len(cbc_key), cbc_key)
-        # print('iv type', type(iv), len(iv), iv)
         aes = pyaes.AESModeOfOperationCBC(binascii.unhexlify(cbc_key))
         function_iv = aes.encrypt(binascii.unhexlify(iv))
-        # function_iv = aes.encrypt(binascii.unhexlify(chr(iv)))
-
         function_iv = binascii.hexlify(function_iv)
-        # print(decrypted, binascii.unhexlify(iv))
-        # print(len(decrypted), type(decrypted), len(iv), type(iv))
-        # print('Decrypted text: ', decrypted, len(decrypted), type(decrypted), int(decrypted, 16))
-        # print('iv type: ', iv, type(iv), len(iv), int(iv, 16))
-        # print("Decrypted and iv: ", decrypted, iv)
-
         result = xor(binascii.unhexlify(function_iv), binascii.unhexlify(block))
-
         result = binascii.hexlify(result)
-        # print("Trying   ", hex_to_chars(result))
         results += codecs.decode(result)
 
-        # print(iv, type(iv), int.from_bytes(iv, byteorder='big'))
-        # iv_int = int.from_bytes(iv, byteorder='big') + 1
-        # print('Integer is: ', iv_int, type(iv_int))
-        # iv = str(iv_int).encode()
-        iv = iv_set.pop(0)
-        # print('Hex iv is: ', hex(iv_int))
+        # this part of code increments iv by 1
+        temp = hex_to_int_list(iv)
+        temp[-1] += 1
+        iv = int_list_to_hex(temp)
 
     return results, hex_to_chars(results)
 
@@ -103,17 +142,9 @@ cipher_text3 = '69dda8455c7dd4254bf353b773304eec0ec7702330098ce7f7520d1cbbb20fc3
     "ascii")
 cbc_key3 = '36f18357be4dbd77f050515c73fcf9f2'.encode("ascii")
 
-#this set is needed because it was horribly slow to implement incrementation of the IV automatically
-iv_set3 = ['69dda8455c7dd4254bf353b773304eed',
-          '69dda8455c7dd4254bf353b773304eee',
-          '69dda8455c7dd4254bf353b773304eef',
-          '69dda8455c7dd4254bf353b773304ef0',
-          '69dda8455c7dd4254bf353b773304ef1']
 cipher_text4 = '770b80259ec33beb2561358a9f2dc617e46218c0a53cbeca695ae45faa8952aa0e311bde9d4e01726d3184c34451'.encode(
     "ascii")
 cbc_key4 = '36f18357be4dbd77f050515c73fcf9f2'.encode("ascii")
-iv_set4 = ['770b80259ec33beb2561358a9f2dc618',
-          '770b80259ec33beb2561358a9f2dc619',]
-print(ctr_decryption(cipher_text3, cbc_key3, iv_set3))
-print(ctr_decryption(cipher_text4, cbc_key4, iv_set4))
+print(ctr_decryption(cipher_text3, cbc_key3))
+print(ctr_decryption(cipher_text4, cbc_key4))
 ################################################
