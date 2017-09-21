@@ -2,7 +2,7 @@ import re
 # S = input()
 # k = input()
 
-S = 'abababbaba'
+S = 'abaababbaaba'
 k = 'aa'
 
 result = (-1, -1)
