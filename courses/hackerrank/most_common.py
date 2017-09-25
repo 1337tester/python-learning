@@ -17,7 +17,6 @@ Sample Output
 b 3
 a 2
 c 2
-
 """
 
 # failing on 'qwertyuiopasdfghjklzxcvbnm' ->
@@ -27,20 +26,26 @@ c 2
 
 
 #!/bin/python3
-
 from collections import OrderedDict, Counter
 
 if __name__ == "__main__":
     # s = input().strip()
-    s = 'qwertyuiopasdfghjklzxcvbnm'.strip()
+    s = 'abcdefghijjjklmno'.strip()
     dicti = {}
     for a in s:
         if a in dicti: dicti[a] += 1
         else: dicti[a] = 1
-# dicta = OrderedDict(sorted(dicti.items(), key=lambda t: t[0]))
-dicto = OrderedDict(sorted(dicti.items(), key=lambda t: t[1]))
 
-result = Counter(dicto).most_common(3)
+dicta = OrderedDict(sorted(OrderedDict(sorted(dicti.items(), key=lambda t: t[0], reverse=True)).items(), key=lambda t: t[1]))
+
 for i in range(3):
-    print(result[i][0], result[i][1])
+    a,b = dicta.popitem()
+    print(a, b)
 
+
+#elegant solution from other guy
+'''
+class OrderedCounter(Counter, OrderedDict):
+    pass
+[print(*c) for c in OrderedCounter(sorted('abcdefghijjjklmno')).most_common(3)]
+'''
