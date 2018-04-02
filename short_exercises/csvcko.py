@@ -1,5 +1,5 @@
 import csv
-path = "/home/1337Tester/Downloads/Google Stock Market Data - google_stock_data.csv"
+path = "gateways_20161124.csv"
 file = open(path, newline = '')
 reader = csv.reader(file)
 header = next(reader)
