@@ -30,7 +30,7 @@ bot = InstaBot(
     unfollow_per_day=200,
     unfollow_break_min=15,
     unfollow_break_max=30,
-    log_mod=0,
+    log_mod=1,
     proxy='',
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
