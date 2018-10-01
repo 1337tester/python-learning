@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """my personal instagram bot"""
-import os
 import time
 
 from src import InstaBot
@@ -11,20 +10,20 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="",
-    password="",
-    like_per_day=100,
+    login="1337tester",
+    password="qwerta1.",
+    like_per_day=300,
     comments_per_day=0,
-    # Bratislava, Bratislava, Bristol, London city, Zurich???
-    tag_list=['l:755679239', 'l:213682323', 'l:213267431', 'l:212936887',
+    # Bratislava, Bratislava, Bristol, London city, Kiev, Zurich???
+    tag_list=['l:755679239', 'l:213682323', 'l:213267431', 'l:212936887', 'l:212898659',
               'slovak', 'slovakgirls', 'slovakgirl', 'slovakia', 'svk',
               'travel', 'wanderlust', 'fly', 'adrenaline',
-              'girl', 'single', 'beauty', 'party', 'woman', 'artist'
-              'testing', 'hacking', 'python', 'programming', 'tech'
+              'girl', 'adventurous', 'beauty', 'party', 'woman', 'artist'
+              # 'testing', 'hacking', 'python', 'programming', 'tech'
              ],
     tag_blacklist=[],
     user_blacklist={},
-    max_like_for_one_tag=5,
+    max_like_for_one_tag=10,
     follow_per_day=100,
     follow_time=3 * 60 * 60,
     unfollow_per_day=200,

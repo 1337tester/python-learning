@@ -4,6 +4,7 @@
 from __future__ import print_function
 from .unfollow_protocol import unfollow_protocol
 from .userinfo import UserInfo
+from .new_unfollow import new_unfollow
 import atexit
 import datetime
 import itertools
@@ -368,7 +369,7 @@ class InstaBot:
                         logging.exception("get_media_id_by_tag")
                 else:
                     return 0
-                    
+
             else:
                 log_string = "Get Media by tag: %s" % (tag)
                 self.by_location = False
@@ -834,6 +835,7 @@ class InstaBot:
             return False
 
     def auto_unfollow(self):
+        self.write_log("Inside auto_unfollow")
         checking = True
         while checking:
             username_row = get_username_random(self)
@@ -844,7 +846,14 @@ class InstaBot:
             current_user = username_row[1]
             unfollow_count = username_row[2]
 
+            # self.write_log('current_id: ' + str(current_id))
+            # self.write_log('current_user: '+ str(current_user))
+            # self.write_log('unfollow_count: '+ str(unfollow_count))
+
+            new_unfollow(self, current_id, current_user)
+
             if not current_user:
+                self.write_log('Inside current_user if')
                 current_user = self.get_username_by_user_id(user_id=current_id)
             if not current_user:
                 log_string = "api limit reached from instagram. Will try later"
@@ -857,6 +866,7 @@ class InstaBot:
                     self.write_log(log_string)
                     break
             else:
+                # self.write_log("Exit auto_unfollow on last else")
                 checking = False
 
         if self.login_status:

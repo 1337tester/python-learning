@@ -1,5 +1,0 @@
-ERROR:root:Except on auto_unfollow!
-Traceback (most recent call last):
-  File "/home/ubuntu/Downloads/pyfund/instabot.py/src/instabot.py", line 869, in auto_unfollow
-    all_data = json.loads(re.search('{"activity.+show_app', r.text, re.DOTALL).group(0)+'":""}')['entry_data']['ProfilePage'][0]
-AttributeError: 'NoneType' object has no attribute 'group'

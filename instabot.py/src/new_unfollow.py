@@ -6,6 +6,7 @@ def new_unfollow(self, user_id, user_name):
     """ Send http request to unfollow """
     url_unfollow = self.url_unfollow % (user_id)
     try:
+        # self.write_log("Inside of new_unfollow of " + str(user_name))
         unfollow = self.s.post(url_unfollow)
         if unfollow.status_code == 200:
             self.unfollow_counter += 1
