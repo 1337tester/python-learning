@@ -1,5 +1,5 @@
-
 #!/usr/bin/env python
+# ./zap.sh -daemon -config api.key=2pqe49akp2r1qjcdvm2ojslvc7
 import time
 from zapv2 import ZAPv2
 
