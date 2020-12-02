@@ -1,4 +1,5 @@
 def dispatch_dict(operator, x, y):
+    import pdb; set_trace()
     return {
         'add': lambda: x + y,
         'subt': lambda: x - y,

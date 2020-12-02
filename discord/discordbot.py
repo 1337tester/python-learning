@@ -6,20 +6,33 @@ from discord.ext import commands
 fileDir = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(fileDir, "token.txt")) as file:
     token = file.read()
+# print(token)
 
 channel = 691319709252976723
 # https://discord.com/api/oauth2/authorize?client_id=711170799658205194&permissions=198720&scope=bot
 
 bot = commands.Bot(command_prefix='bot.')
 
-def crypto_price(crypto = "XMREUR"):
+def crypto_price(pair = "XXMRZEUR"):
     """Getting the currency pair from kraken.com"""
-    crypto = crypto
-    response = requests.get(f"https://api.kraken.com/0/public/Ticker?pair={crypto}")
+    response = requests.get(f"https://api.kraken.com/0/public/Ticker?pair={pair}")
     json = response.json()
-    pair = f'X{crypto[:3]}Z{crypto[3:]}'
+
+    # pair = f'X{pair[:3]}Z{pair[3:]}'
     price = json['result'][pair]['c'][0]
+
     return price
+
+def crypto_pairs():
+    """Getting the crypto pairs from kraken.com"""
+    resp = requests.get("https://api.kraken.com/0/public/AssetPairs")
+    resp.json()['result']
+    pairs = []
+
+    for pair in resp.json()['result']:
+        pairs.append(pair)
+    return pairs
+
 
 @bot.event  # event decorator/wrapper. More on decorators here: https://pythonprogramming.net/decorators-intermediate-python-tutorial/
 async def on_ready():  # method expected by client. This runs once when connected
@@ -55,7 +68,7 @@ async def nine_nine(ctx):
     await bot.close()
 
 @bot.command(name='report', help='Getting channel members report')
-async def crypto(ctx, pair: str):
+async def crypto(ctx):
     dobrichlapci = bot.get_channel(channel)
     online = 0
     idle = 0
@@ -69,9 +82,17 @@ async def crypto(ctx, pair: str):
             idle += 1
     await ctx.channel.send(f"\n```Online: {online}.\nIdle/busy/dnd: {idle}.\nOffline: {offline}```")
 
-@bot.command(name='crypto', help='Getting crypto pairs from kraken.com and printing them in channel')
-async def crypto(ctx, pair: str):
+@bot.command(name='crypto', help="Print crypto prices from kraken.com - 'all' for all prices")
+async def crypto(ctx, pair: str = 'XXMRZEUR'):
     pair = pair.upper()
-    await ctx.channel.send(f'Crypto price of {pair} is {crypto_price(pair)}')
+    if pair == 'ALL':
+        for item in crypto_pairs():
+            await ctx.channel.send(f'Crypto price of {item} is {crypto_price(item)}')
+    else:
+        await ctx.channel.send(f'Crypto price of {pair} is {crypto_price(pair)}')
+
+@bot.command(name='cryptopairs', help='Printing crypto pairs from kraken.com')
+async def cryptopairs(ctx):
+    await ctx.channel.send(f'Crypto pairs on kraken.com are\n {crypto_pairs()}')
 
 bot.run(token)

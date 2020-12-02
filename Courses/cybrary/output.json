@@ -1,0 +1,138 @@
+{
+  '18.185.160.73': [{
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '21',
+    'state': 'filtered',
+    'reason': 'no-response',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'ftp',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '22',
+    'state': 'open',
+    'reason': 'syn-ack',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'ssh',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '23',
+    'state': 'filtered',
+    'reason': 'no-response',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'telnet',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '25',
+    'state': 'filtered',
+    'reason': 'no-response',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'smtp',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '80',
+    'state': 'open',
+    'reason': 'syn-ack',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'http',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '110',
+    'state': 'filtered',
+    'reason': 'no-response',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'pop3',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '139',
+    'state': 'filtered',
+    'reason': 'no-response',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'netbios-ssn',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '443',
+    'state': 'open',
+    'reason': 'syn-ack',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'https',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '445',
+    'state': 'filtered',
+    'reason': 'no-response',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'microsoft-ds',
+      'method': 'table',
+      'conf': '3'
+    }
+  }, {
+    'host': '18.185.160.73',
+    'protocol': 'tcp',
+    'portid': '3389',
+    'state': 'filtered',
+    'reason': 'no-response',
+    'reason_ttl': '0',
+    'service': {
+      'name': 'ms-wbt-server',
+      'method': 'table',
+      'conf': '3'
+    }
+  }],
+  'runtime': {
+    'time': '1593118611',
+    'timestr': 'Thu Jun 25 22:56:51 2020',
+    'elapsed': '1.38',
+    'summary': 'Nmap done at Thu Jun 25 22:56:51 2020; 1 IP address (1 host up) scanned in 1.38 seconds',
+    'exit': 'success'
+  },
+  'stats': {
+    'scanner': 'nmap',
+    'args': '/usr/bin/nmap -oX - --top-ports 10 houseoftest.rocks',
+    'start': '1593118610',
+    'startstr': 'Thu Jun 25 22:56:50 2020',
+    'version': '7.80',
+    'xmloutputversion': '1.04'
+  }
+}
