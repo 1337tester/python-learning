@@ -30,7 +30,7 @@ TOC_LIST_PREFIX = "-"
 HEADER_LINE_RE = re.compile("^(#+)\s*(.*?)\s*(#+$|$)", re.IGNORECASE)
 HEADER1_UNDERLINE_RE = re.compile("^-+$")
 HEADER2_UNDERLINE_RE = re.compile("^=+$")
-
+SEPARATOR = os.sep
 
 def toggles_block_quote(line):
     """Returns true if line toggles block quotes on or off
@@ -88,7 +88,7 @@ def create_index(cwd, headings=False, wikilinks=False):
     """ create markdown index of all markdown files in cwd and sub folders
     """
     base_len = len(cwd)
-    base_level = cwd.count(os.sep)
+    base_level = cwd.count(SEPARATOR)
     md_lines = []
     md_exts = ['.markdown', '.mdown', '.mkdn', '.mkd', '.md']
     md_lines.append('<!-- filetree -->\n\n')
@@ -96,14 +96,14 @@ def create_index(cwd, headings=False, wikilinks=False):
         files = sorted([f for f in files if not f[0] == '.' and os.path.splitext(f)[-1] in md_exts])
         dirs[:] = sorted([d for d in dirs if not d[0] == '.'])
         if len(files) > 0:
-            level = root.count(os.sep) - base_level
+            level = root.count(SEPARATOR) - base_level
             indent = '  ' * level
             if root != cwd:
                 indent = '  ' * (level - 1)
                 md_lines.append('{0} {2} **{1}/**\n'.format(indent,
                                                             os.path.basename(root),
                                                             TOC_LIST_PREFIX))
-            rel_dir = '.{1}{0}'.format(os.sep, root[base_len:])
+            rel_dir = '.{1}{0}'.format(SEPARATOR, root[base_len:])
             for md_filename in files:
                 indent = '  ' * level
                 if wikilinks:
@@ -126,6 +126,10 @@ def create_index(cwd, headings=False, wikilinks=False):
                             md_lines.append("{}{} {}\n".format(indent, TOC_LIST_PREFIX, header[1]))
 
     md_lines.append('\n<!-- filetreestop -->\n')
+    
+    # replacing \ with /
+    md_lines = [sub.replace('\\', '/') for sub in md_lines]
+    
     return md_lines
 
 
