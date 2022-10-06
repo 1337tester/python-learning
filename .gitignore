@@ -1,5 +1,10 @@
 # mine
 discord/token.txt
+Courses/pandas_play/geopandas/CA_county_boundaries
+Courses/pandas_play/geopandas/DEC_lands
+Courses/pandas_play/geopandas/NYPD_Motor_Vehicle_Collisions
+Courses/pandas_play/geopandas/SAPA_Aug2019-shapefile
+*.shp
 
 ## From Template
 # Byte-compiled / optimized / DLL files
