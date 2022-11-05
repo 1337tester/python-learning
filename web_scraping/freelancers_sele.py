@@ -23,11 +23,7 @@ chrome_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()
 try:
     chrome_driver.get('https://www.freelance.de/Projekte/K/IT-Entwicklung-Projekte/')
     chrome_driver.maximize_window()
-    
-    
-    # chrome_driver.find_element("name", "li1").click()
-    # assert chrome_driver.title == 'Testing is my Profession'
-        
+            
     input_freetext = chrome_driver.find_element(By.CSS_SELECTOR, freetext_css)
     input_freetext.send_keys("test")
     
@@ -44,12 +40,11 @@ try:
     # select radius from city
     chrome_driver.find_element(By.CSS_SELECTOR, city_distance_css).click()
     chrome_driver.find_element(By.CSS_SELECTOR, city_distance_100km_css).click() 
-        
     sleep(1)
     
+    # submit search
     chrome_driver.find_element(By.CSS_SELECTOR, search_css).click()    
     
-    # chrome_driver.find_element(By.XPATH, search_button_xpath).click()
     sleep(10)
     
 except NoSuchElementException:
