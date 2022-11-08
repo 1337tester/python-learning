@@ -28,11 +28,6 @@ def check_pagination(pagination):
     print(pages[1], pages[2], pages[3])
     # print(pages)
 
-
-
-# cookie_banner_css = '#cookieChoiceInfo > div > span.cookie-choices-text'
-# cookie_dismiss_xpath = '//*[@id="cookieChoiceDismiss"]'
-# search_button_xpath = '/html/body/div[1]/header/div/div/div[1]/div[2]/button/div[1]'
 freetext_css = '#__search_freetext'
 city_css = '#__search_city'
 city_selectfirst_css = '.place-autocompleter > a:nth-child(1)'
