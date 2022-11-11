@@ -91,17 +91,15 @@ try:
         try:
             next = chrome_driver.find_element(By.CSS_SELECTOR, next_css)
         except NoSuchElementException:
-            pagination = chrome_driver.find_element(By.CSS_SELECTOR, pagination_css)
-            check_pagination(pagination)
             next = None
-        print(separator)
-        print(separator)
     
     print("Length ", len(all_jobs))
     print("Type ", type(all_jobs))
     for job in all_jobs:
         print(*job, sep = "\n")
         print(separator)
+    pagination = chrome_driver.find_element(By.CSS_SELECTOR, pagination_css)
+    check_pagination(pagination)
     
     
 except NoSuchElementException:
