@@ -7,11 +7,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup
 from time import sleep
+import pandas
 
 separator = 40*"*"
+keyword = "test"
+city = "Zürich"
 website = "https://www.freelance.de"
 search_link = "/Projekte/K/IT-Entwicklung-Projekte/"
 all_jobs = []
+csv_file = "jobs_" + keyword + ".csv"
 
 def jobs_info(soup_job):
     job_details = [text for text in soup_job.stripped_strings]
@@ -19,7 +23,9 @@ def jobs_info(soup_job):
         
     # assigning strings to a meaningfull parameter
     name = job_details[0]
+    to_strip = "/highlight=" + keyword
     link = website + a_tags[0]['href']
+    link_stripped = link.rstrip(to_strip)
     techstack = job_details[3:-6]
     start = job_details[-6]
     location = job_details[-5]
@@ -27,8 +33,7 @@ def jobs_info(soup_job):
     added = job_details[-3]
     
     # print(name, *techstack, start, location, office_type, added, sep = "\n")
-    job_details_final = [name, link]
-    # print(job_details_final)
+    job_details_final = [name, link_stripped]
     return job_details_final
     
 def check_pagination(pagination):
@@ -37,6 +42,7 @@ def check_pagination(pagination):
 
 freetext_css = '#__search_freetext'
 city_css = '#__search_city'
+# city_autocompleter_css = '#project_city_autocompletion'
 city_selectfirst_css = '.place-autocompleter > a:nth-child(1)'
 city_distance_css = 'div.col-sm-2:nth-child(3) > div:nth-child(2) > button:nth-child(1)'
 city_distance_100km_css = 'div.col-sm-2:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)'
@@ -52,13 +58,13 @@ try:
     chrome_driver.maximize_window()
             
     input_freetext = chrome_driver.find_element(By.CSS_SELECTOR, freetext_css)
-    input_freetext.send_keys("test")
+    input_freetext.send_keys(keyword)
     
     input_city = chrome_driver.find_element(By.CSS_SELECTOR, city_css)
     input_city.click()
     sleep(1)
-    input_city.send_keys("Zürich")
-
+    input_city.send_keys(city)
+    
     # select first choice
     WebDriverWait(chrome_driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, city_selectfirst_css)))
     city_dropdown = chrome_driver.find_element(By.CSS_SELECTOR, city_selectfirst_css)
@@ -67,7 +73,6 @@ try:
     # select radius from city
     chrome_driver.find_element(By.CSS_SELECTOR, city_distance_css).click()
     chrome_driver.find_element(By.CSS_SELECTOR, city_distance_100km_css).click() 
-    sleep(1)
     
     # submit search
     chrome_driver.find_element(By.CSS_SELECTOR, search_css).click()    
@@ -93,17 +98,17 @@ try:
         except NoSuchElementException:
             next = None
     
-    print("Length ", len(all_jobs))
-    print("Type ", type(all_jobs))
+    # read csv file and write into it new entries
+    csvFile = pandas.read_csv(csv_file)
     for job in all_jobs:
-        print(*job, sep = "\n")
-        print(separator)
+        print(*job, sep = ";")
+        # print(separator)
     pagination = chrome_driver.find_element(By.CSS_SELECTOR, pagination_css)
     check_pagination(pagination)
     
     
-except NoSuchElementException:
-    print('Element not found')
+except NoSuchElementException as ex:
+    print(ex.args)
     
 finally:
     chrome_driver.close()
