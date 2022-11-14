@@ -7,8 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup
 from time import sleep
-import pandas
-import os
+import pandas, os, datetime
 
 separator = 40*"*"
 keyword = "test"
@@ -18,7 +17,8 @@ search_link = "/Projekte/K/IT-Entwicklung-Projekte/"
 all_jobs = []
 dir_path = os.path.realpath(os.path.dirname(__file__))
 csv_file = os.path.join(dir_path, "jobs_" + keyword + ".csv")
-# csv_file = dir_path + "\\" + "jobs_" + keyword + ".csv"
+timestamp = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+csv_file_timestamped = os.path.join(dir_path, "jobs_" + keyword + timestamp + ".csv")
 
 def jobs_info(soup_job):
     job_details = [text for text in soup_job.stripped_strings]
@@ -106,17 +106,20 @@ try:
     job_list_df_new = pandas.DataFrame()
     for job in all_jobs:
         if job[1] not in job_list_df.values :
-            print(*job, sep = "\n")
-            print(separator)
+            # print(*job, sep = "\n")
+            # print(separator)
             series = pandas.Series(job)
             job_list_df_new = job_list_df_new.append(series, ignore_index=True)
     job_list_df = pandas.DataFrame(all_jobs)
-    print("New jobs:", job_list_df_new)
     # print(csv_file)
+    if not job_list_df_new.empty:
+        print("New jobs:", job_list_df_new)
+        job_list_df_new.to_csv(csv_file_timestamped)
+    else: print("There are no new words for this searchterm")
     job_list_df.to_csv(csv_file)
     
-    pagination = chrome_driver.find_element(By.CSS_SELECTOR, pagination_css)
-    check_pagination(pagination)
+    # pagination = chrome_driver.find_element(By.CSS_SELECTOR, pagination_css)
+    # check_pagination(pagination)
     
     
 except NoSuchElementException as ex:
