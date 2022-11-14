@@ -43,6 +43,7 @@ def check_pagination(pagination):
     pages = pagination.text.split(' ')
     print(pages[1], pages[2], pages[3])
 
+# selectors
 freetext_css = '#__search_freetext'
 city_css = '#__search_city'
 # city_autocompleter_css = '#project_city_autocompletion'
@@ -54,11 +55,14 @@ job_info_css = '.project-list > div'
 pagination_css = '[id=pagination] > p'
 next_css = '[aria-label=Next]'
 
-chrome_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+options = webdriver.ChromeOptions() 
+options.add_argument("start-maximized")
+# to supress the error messages/logs
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+chrome_driver = webdriver.Chrome(options=options, service=Service(ChromeDriverManager().install()))
 
 try:
     chrome_driver.get(website + search_link)
-    chrome_driver.maximize_window()
             
     input_freetext = chrome_driver.find_element(By.CSS_SELECTOR, freetext_css)
     input_freetext.send_keys(keyword)
