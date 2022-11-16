@@ -43,6 +43,14 @@ def check_pagination(pagination):
     pages = pagination.text.split(' ')
     print(pages[1], pages[2], pages[3])
 
+def main(args):
+    if not args:
+        args = ["-"]
+    for arg in args:
+        if arg != "-":
+            print(arg)
+
+
 # selectors
 freetext_css = '#__search_freetext'
 city_css = '#__search_city'
@@ -63,7 +71,9 @@ chrome_driver = webdriver.Chrome(options=options, service=Service(ChromeDriverMa
 
 try:
     chrome_driver.get(website + search_link)
-            
+    
+    # insert search keyword            
+    WebDriverWait(chrome_driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, freetext_css)))
     input_freetext = chrome_driver.find_element(By.CSS_SELECTOR, freetext_css)
     input_freetext.send_keys(keyword)
     
@@ -119,7 +129,7 @@ try:
     if not job_list_df_new.empty:
         print("New jobs:", job_list_df_new)
         job_list_df_new.to_csv(csv_file_timestamped)
-    else: print("There are no new words for this searchterm")
+    else: print("There are no new jobs for this searchterm")
     job_list_df.to_csv(csv_file)
     
     # pagination = chrome_driver.find_element(By.CSS_SELECTOR, pagination_css)
