@@ -51,19 +51,8 @@ def cover_all_pairs(set_of_sets):
 efficient_pairs = cover_all_pairs(SUPERSET)
 all_comb = all_combo(SUPERSET)
 
-for pair in efficient_pairs: print(pair)
-print("Combinations to cover all pairs: ", len(efficient_pairs))
+for count, pair in enumerate(efficient_pairs, start=1):
+    print(count, list[pair])
+
+# for pair in efficient_pairs: print(pair)
 print("All combinations: ", len(all_comb))
-print(15*"*")
-
-from allpairspy import AllPairs
-parameters = [
-    ['W10', 'Ubuntu', 'Debian'],
-    ['HP', 'Epson', 'Lexmark'],
-    ['16GB', '24GB', '64GB'],
-    ['6core', '8core', '12core'],
-    ['Slow', 'Medium', 'RTX3090'],
-    ['HDD', 'SDD', 'HDD+SDD']    
-]
-
-for i, pairs in enumerate(AllPairs(parameters)): print("{:2d}: {}".format(i, pairs))
