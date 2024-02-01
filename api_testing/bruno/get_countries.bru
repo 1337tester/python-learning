@@ -1,0 +1,15 @@
+meta {
+  name: get_countries
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{url}}/countries
+  body: none
+  auth: none
+}
+
+assert {
+  res("0.area"): eq 513120
+}
