@@ -1,22 +1,12 @@
 import itertools
-import pprint
 
-SET1 = ('W10', 'Ubuntu', 'Debian')
-SET2 = ('HP', 'Epson', 'Lexmark')
-SET3 = ('16GB', '24GB', '64GB')
-SET4 = ('6core', '8core', '12core')
-SET5 = ('Slow', 'Medium', 'RTX3090')
-SET6 = ('HDD', 'SDD', 'HDD+SDD')
-SUPERSET = (SET1, SET2, SET3, SET4, SET5, SET6)
-SUPERSET_MEMB = set(itertools.chain(*SUPERSET))
-
-# print('superset: ', *superset, sep='\n')
-MYLIST = SUPERSET[0:6]
-SUPERSET_PRODUCT = set(itertools.product(*MYLIST))
-print(SUPERSET_PRODUCT)
-# print(*SUPERSET_PRODUCT, sep='\n')
-# print(set(itertools.combinations(superset[0], superset[1], 2)))
-# print('size of SUPERSET_PRODUCT is ', len(SUPERSET_PRODUCT))
+operation_system = ('W10', 'Ubuntu', 'Debian')
+manufacturer = ('HP', 'Epson', 'Lexmark')
+ram = ('16GB', '24GB', '64GB')
+cpu = ('6core', '8core', '12core')
+graphics = ('Slow', 'Medium', 'RTX3090')
+storage = ('HDD', 'SDD', 'HDD+SDD')
+SUPERSET = (operation_system, manufacturer, ram, cpu, graphics, storage)
 
 def create_pairs(set_of_sets):
     """Returns pairs from set_of_sets and all_members of that set"""
@@ -56,34 +46,13 @@ def cover_all_pairs(set_of_sets):
                 break
     return efficient_comb
 
-# print('all combo ', all_combo(MYLIST))
 
-A = create_pairs(MYLIST)
-# A = create_pairs(3)
-B = all_combo(SUPERSET)
-# print(type(MYLIST))
-print(MYLIST)
-test_list = (('a', 'b', 'c'), ('d', 'e'), ('g', 'h'))
-C = cover_all_pairs(SUPERSET)
-# C = cover_all_pairs()
 
-pp = pprint.PrettyPrinter(indent=4)
-# print('A', len(A), A)
-# print('B', len(B), B)
-# print('C', len(C), C)
-pp.pprint('A')
-pp.pprint(len(A))
-pp.pprint(A)
+efficient_pairs = cover_all_pairs(SUPERSET)
+all_comb = all_combo(SUPERSET)
 
-# pp.pprint('B')
-# pp.pprint(len(B))
-# pp.pprint(B)
+for count, pair in enumerate(efficient_pairs, start=1):
+    print(count, list[pair])
 
-pp.pprint('C')
-pp.pprint(len(C))
-pp.pprint(C)
-
-# for item in A:
-#     print(item)
-
-# print(ALL_MEMBERS)
+# for pair in efficient_pairs: print(pair)
+print("All combinations: ", len(all_comb))

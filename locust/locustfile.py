@@ -1,6 +1,6 @@
 from locust import HttpLocust, TaskSet, task
 
-# locust -f ~/Dropbox/pyfund/locust/locustfile.py --host=http://www.1337tester.com
+# locust -f locustfile.py --host=http://www.1337tester.com
 
 class UserBehavior(TaskSet):
     def on_start(self):
