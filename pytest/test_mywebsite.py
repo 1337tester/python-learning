@@ -11,7 +11,7 @@ search_button_xpath = '/html/body/div[1]/header/div/div/div[1]/div[2]/button/div
 
 
 def test_lambdatest_todo_app():
-    chrome_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    chrome_driver = webdriver.Chrome(ChromeDriverManager().install())
     
     try:
         chrome_driver.get('https://www.1337tester.com/')
