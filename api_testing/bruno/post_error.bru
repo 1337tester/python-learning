@@ -1,0 +1,25 @@
+meta {
+  name: post_error
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{url}}/countries
+  body: text
+  auth: none
+}
+
+body:json {
+  {
+      areaakia"
+    }
+}
+
+body:text {
+  aaa
+}
+
+assert {
+  res.status: eq 415
+}

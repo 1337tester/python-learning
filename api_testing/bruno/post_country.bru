@@ -1,0 +1,23 @@
+meta {
+  name: post_country
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{url}}/countries
+  body: json
+  auth: bearer
+}
+
+body:json {
+  {
+      "area": 49657,
+      "capital": "none",
+      "name": "Switzerland"
+    }
+}
+
+assert {
+  res.status: eq 201
+}
