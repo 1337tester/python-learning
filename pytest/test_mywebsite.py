@@ -4,14 +4,28 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.common.exceptions import NoSuchElementException
+import pytest
+import requests
+
 
 cookie_banner_css = '#cookieChoiceInfo > div > span.cookie-choices-text'
 cookie_dismiss_xpath = '//*[@id="cookieChoiceDismiss"]'
 search_button_xpath = '/html/body/div[1]/header/div/div/div[1]/div[2]/button/div[1]'
+website_url = 'https://www.1336tester.com/'
+accepted_encodings = ('gzip', 'br', 'deflate', 'zstd')
 
 timeout = 10
 
+@pytest.fixture(scope="module")
+def website_response():
+    return requests.get(website_url)
+
+
+def test_website_on(website_response):
+    assert website_response.status_code == 200
+
+def test_website_encoding(website_response):
+    assert website_response.headers['content-encoding'] in accepted_encodings
 
 def test_lambdatest_todo_app():
     chrome_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -41,15 +55,3 @@ def test_lambdatest_todo_app():
 
     finally:
         chrome_driver.quit()
-
-
-    # sample_text = "Happy Testing at LambdaTest"
-    # email_text_field = chrome_driver.find_element("id", "sampletodotext")
-    # email_text_field.send_keys(sample_text)
-    # sleep(2) 
-    # chrome_driver.find_element("id", "addbutton").click()
-    # sleep(2) 
-    # output_str = chrome_driver.find_element("xpath", "/html/body/div/div/div/ul/li[6]/span").text
-    # assert output_str == "Happy Testing at LambdaTest"
-    # sys.stderr.write(output_str)    
-    # sleep(1)
